@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 
 import bg from "@/assets/bg-boho.jpg";
+import { BackgroundMusic } from "@/components/wedding/BackgroundMusic";
 import { Opener } from "@/components/wedding/Opener";
 import { Hero } from "@/components/wedding/Hero";
 import { Events } from "@/components/wedding/Events";
@@ -59,6 +60,7 @@ function Invitation() {
       <div aria-hidden className="fixed inset-0 -z-10 bg-ivory/35" />
 
       {!opened && <Opener onOpen={() => setOpened(true)} />}
+      <BackgroundMusic active={opened} />
 
       <main
         className="transition-opacity duration-1000"
