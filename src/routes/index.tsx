@@ -7,7 +7,6 @@ import { Hero } from "@/components/wedding/Hero";
 import { Events } from "@/components/wedding/Events";
 import { Gallery } from "@/components/wedding/Gallery";
 import { LoveStory } from "@/components/wedding/LoveStory";
-import { Schedule } from "@/components/wedding/Schedule";
 import { Venue } from "@/components/wedding/Venue";
 import { Rsvp } from "@/components/wedding/Rsvp";
 import { Footer } from "@/components/wedding/Footer";
@@ -36,7 +35,6 @@ const links = [
   ["Events", "#events"],
   ["Story", "#story"],
   ["Gallery", "#gallery"],
-  ["Schedule", "#schedule"],
   ["Venue", "#venue"],
   ["RSVP", "#rsvp"],
 ];
@@ -83,7 +81,6 @@ function Invitation() {
         <Events />
         <LoveStory />
         <Gallery />
-        <Schedule />
         <Venue />
         <Rsvp />
         <Footer />
