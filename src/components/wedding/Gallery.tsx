@@ -1,6 +1,5 @@
 import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
-import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
@@ -8,7 +7,6 @@ import { SectionHeading } from "./SectionHeading";
 const shots = [
   { src: g2, caption: "Under the pampas arch", rotate: "-3deg", span: "sm:col-span-7", ratio: "aspect-[4/3] object-cover" },
   { src: g1, caption: "Golden hour, Goa", rotate: "2.5deg", span: "sm:col-span-5 sm:mt-14", ratio: "aspect-[3/4] object-cover" },
-  { src: g3, caption: "Mehendi mornings", rotate: "-2deg", span: "sm:col-span-5", ratio: "aspect-[3/4] object-cover" },
   { src: g4, caption: "The two of us", rotate: "3deg", span: "sm:col-span-7 sm:-mt-10", ratio: "aspect-[4/3] object-cover" },
 ];
 
